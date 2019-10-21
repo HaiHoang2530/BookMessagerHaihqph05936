@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Them"
+        android:id="@+id/itemThem"
+        />
+    <item android:title="Doi Mat Khau"
+        android:id="@+id/itemDoiMatKhau"
+        />
+    <item
+        android:title="Dang Xuat"
+        android:id="@+id/itemDangXuat"
+        />
+
+</menu>

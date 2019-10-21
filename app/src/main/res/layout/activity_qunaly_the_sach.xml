@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QunalyTheSachActivity"
+    android:orientation="vertical">
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtMaSach"
+        android:hint="@string/ma_sach"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/spnTheLoai"
+        />
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtTenSach"
+        android:hint="@string/ten_sach"/>
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtTentacgia"
+        android:hint="@string/ten_tac_gia"/>
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtNXB"
+        android:hint="NXB"/>
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtGia"
+        android:hint="Gia"/>
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtSoLuong"
+        android:hint="So Luong"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <Button
+            android:id="@+id/btnAddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:onClick="addBook"
+            />
+
+        <Button
+            android:id="@+id/btnCanceBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShowBoook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Show"
+        android:textAllCaps="false"
+        android:onClick="showBook"/>
+
+
+
+</LinearLayout>

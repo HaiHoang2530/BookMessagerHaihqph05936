@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="haihqph05936.iris.bookmessagerhaihqph05936">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/name_QLS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ListHoaDonChiTietActivity"></activity>
+        <activity android:name=".ui.HoaDonchitietActivity" />
+        <activity android:name=".ui.NguoiDungDetaiActivity" />
+        <activity android:name=".ui.DoiMatKhauActivity" />
+        <activity android:name=".ui.TopSachBanChayActivity" />
+        <activity android:name=".ui.TongHopThongKeActivity" />
+        <activity android:name=".ui.QuanLyHoaDonActivity" />
+        <activity android:name=".ui.QuanLyNhapHoaDonActivity" />
+        <activity android:name=".ui.QuanLySachActivity" />
+        <activity android:name=".ui.QunalyTheSachActivity" />
+        <activity android:name=".ui.DangSachTheLoaiSachActivity" />
+        <activity android:name=".ui.ThemTheLoaiSachActivity" />
+        <activity android:name=".ui.DanhSachNguoiDungActivity" />
+        <activity android:name=".ui.ThemNguoiDungActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.WellcomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainActivity" />
+    </application>
+
+</manifest>
